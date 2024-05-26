@@ -13,22 +13,22 @@ fun main() {
             get ("/") {
                 call.respondText("Hello, world!")
             }
-            get("/todos"){
+            get("/afazeres"){
 
             }
-            get("/todos/{id}"){
-
-            }
-
-            post("/todos"){
+            get("/afazeres/{id}"){
 
             }
 
-            put("/todos/{id}"){
+            post("/afazeres"){
 
             }
 
-            delete("/todos/{id}"){
+            put("/afazeres/{id}"){
+
+            }
+
+            delete("/afazeres/{id}"){
 
             }
         }
