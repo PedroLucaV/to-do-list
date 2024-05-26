@@ -17,7 +17,8 @@ fun main() {
 
             }
             get("/afazeres/{id}"){
-
+                val id = call.parameters["id"];
+                call.respondText("Lista de Afazeres: Afazer de Número ${id}");
             }
 
             post("/afazeres"){
